@@ -1,0 +1,9 @@
+* text=auto
+
+*.cpp text
+*.hpp text
+*.h text
+*.c text
+
+*.cpp linguist-language=C++
+*.hpp linguist-language=C++
