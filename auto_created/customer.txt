@@ -1,3 +1,6 @@
+# This data is generated automatically. You do not need to write it manually.
+# When a customer account is created, it will be written here by the system.
+
 1. Username : pudukiye
 1. Password : 123123
 /-/
