@@ -56,6 +56,7 @@ class CustomerData {
     int* total_rate;
     std::string* promo_code ;
     double* last_price;
+    std::string* found_activity;
 
 
 
