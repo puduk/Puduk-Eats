@@ -2,6 +2,6 @@
 #define STOCK_UPDATE_H
 #include "restaurant_data.hpp"
 
-void update_stock(RestaurantData &r) ;
+void stock_update(RestaurantData &r) ;
 
 #endif
