@@ -71,6 +71,7 @@ CustomerData::CustomerData(){
   promo_code = new std::string;
   last_price = new double;
   taken_balance = new double(0.0);
+  found_activity = new std::string;
 
 
 }
@@ -127,5 +128,6 @@ CustomerData::~CustomerData(){
   delete promo_code;
   delete last_price;
   delete taken_balance;
+  delete found_activity;
 }
 
