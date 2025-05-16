@@ -104,30 +104,40 @@ void restaurant_create_account(RestaurantData &r){
     return;
   }
 
-  std::ofstream status_file("restaurant_statu.txt" , std::ios::app);
+  std::ofstream status_file(*r.restaurant_name + "_statu.txt" , std::ios::app);
   if(!status_file.is_open()){
     std::cout << "Unable to create account";
     return;
   }
 
 
-  (*r.restaurant_amount)++; // on the previous lines i found total restaurant and in here i am adding one this number for new created restaurant
-// primary id
+
+
+
+
 
   write_file << *r.restaurant_amount << ". " << "Restaurant Name : " << *r.restaurant_name << '\n';
   write_file << *r.restaurant_amount << ". " << "Restaurant Password : " << *r.restaurant_password << '\n';
   write_file << *r.restaurant_amount << ". " << "Restaurant Address : " << *r.restaurant_address<< '\n';
   write_file << *r.restaurant_amount << ". " << "Restaurant Number : " << *r.restaurant_phone_number << '\n';
+  write_file.flush();
+  write_file.close();
 
 
+
+  std::cout << "Creating file: " << *r.restaurant_name + "_statu.txt" << '\n';
   status_file << *r.restaurant_amount << ". " << "Restaurant Name : " << *r.restaurant_name << '\n';
   status_file << *r.restaurant_amount << ". " << "Restaurant Statu : " << "OPEN" << '\n';
+
+  status_file.flush();
+  status_file.close();
+
+
 
   first_add(r);
 
 
 }
-
 
 
 
