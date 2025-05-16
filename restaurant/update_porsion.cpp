@@ -16,7 +16,9 @@ void update_porsion (RestaurantData& r){
       (*r.product_id)++;
     }
   }
-  update_file.seekg (0, std::ios::beg);
+
+  update_file.close();
+  update_file.open(*r.restaurant_name + ".txt" , std::ios::in);
 
   std::cout << "Choose Product You Want to Change : " << '\n';
   std::string update_line;
@@ -44,7 +46,8 @@ void update_porsion (RestaurantData& r){
   std::cout << "Whats the new porsion : " ;
   std::cin >> *r.updated_porsion;
 
-  update_file.seekg (0, std::ios::beg);
+  update_file.close();
+  update_file.open(*r.restaurant_name + ".txt" , std::ios::in);
 
   std::ofstream temp_file ("temp.txt" , std::ios::out);
   if(!temp_file.is_open()){
@@ -74,6 +77,6 @@ void update_porsion (RestaurantData& r){
 
   std::cout << updated_product << " Porsion Successfully Updated." << '\n';
 
-  // menu
+
 }
 
