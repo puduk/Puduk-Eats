@@ -5,6 +5,12 @@
 
 void remove(RestaurantData &r){
 
+  std::ofstream write_file (*r.restaurant_name + "_removed.txt" , std::ios::app);
+  if (!write_file.is_open()) {
+    std::cout << "Unable to delete product.";
+    return;
+  }
+
   std::ifstream show_file (*r.restaurant_name + ".txt" , std::ios::in);
   if (!show_file.is_open()){
     std::cout << "Unable to delete product.";
@@ -18,7 +24,8 @@ void remove(RestaurantData &r){
     }
   }
 
-  show_file.seekg(0, std::ios::beg);
+  show_file.close();
+  show_file.open(*r.restaurant_name + ".txt" , std::ios::in);
 
 
   std::cout << "Your products." << '\n';
@@ -30,6 +37,7 @@ void remove(RestaurantData &r){
     }
   }
 
+
   std::cout << "-----------------------" << '\n';
   std::cout << "Your Choice : ";
   std::cin >> *r.remove_choice;
@@ -39,13 +47,15 @@ void remove(RestaurantData &r){
     return;
   }
 
-  if(*r.remove_choice > *r.product_id || *r.remove_choice == 0 ){
+  if(*r.remove_choice > *r.product_id || *r.remove_choice <= 0 ){
     std::cout << "Opps! We dont have that product." ;
     return;
   }
 
-  show_file.seekg(0, std::ios::beg);
-   std::ofstream remove_file (*r.restaurant_name + "_removed.txt" , std::ios::app);
+  show_file.close();
+  show_file.open(*r.restaurant_name + ".txt" , std::ios::in);
+
+  std::ofstream remove_file (*r.restaurant_name + "_removed.txt" , std::ios::app);
   if (!remove_file.is_open()){
     std::cout << "Unable to delete product.";
     return;
@@ -77,6 +87,7 @@ void remove(RestaurantData &r){
 
     if(current_id == *r.remove_choice){
       remove_file << "[REMOVED] " << delete_line << '\n';
+      remove_file.flush();
     }else{
       temp_file << delete_line << '\n';
     }
@@ -104,7 +115,7 @@ void remove(RestaurantData &r){
     }
   }
 
-  // menu
+
 
 }
 
