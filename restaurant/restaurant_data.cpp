@@ -9,7 +9,7 @@ RestaurantData::RestaurantData(){
   restaurant_phone_number = new std::string;
 
 
-  restaurant_amount = new int(0);
+  restaurant_amount = new int(1);
   restaurant_menu_choice = new int;
 
   product_name = new std::string;
@@ -43,6 +43,10 @@ RestaurantData::RestaurantData(){
   updated_stock = new int;
 
   active_choice = new int;
+  restaurant_rate = new int;
+  total_rate = new int(1);
+  found_product = new std::string;
+
 
 }
 
@@ -84,5 +88,9 @@ RestaurantData::~RestaurantData(){
   delete updated_stock;
 
   delete active_choice;
+  delete restaurant_rate;
+  delete total_rate;
+  delete found_product;
+
 
 }
