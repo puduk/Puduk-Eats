@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 
+
 void update_price(RestaurantData& r){
 
 
@@ -18,17 +19,21 @@ void update_price(RestaurantData& r){
     }
   }
 
-  update_file.seekg(0, std::ios::beg);
+  update_file.close();
+  update_file.open(*r.restaurant_name + ".txt" , std::ios::in);
 
   std::cout << "Your Products." << '\n';
   std::string update_line;
-  while(std::getline(update_file, update_line)){
-    if(update_line.find("Product Name : ") != std::string::npos){
+
+
+  while(std::getline(update_file, update_line)) {
+    if (update_line.find("Product Name : ") != std::string::npos) {
       std::cout << update_line << '\n';
-    }else if (update_line.find("Product Price : ") != std::string::npos){
+    }else if (update_line.find("Product Price : ") != std::string::npos) {
       std::cout << update_line << '\n';
     }
   }
+
   std::cout << "-----------------------" << '\n';
   std::cin >> *r.update_price_choice;
 
@@ -50,6 +55,9 @@ void update_price(RestaurantData& r){
     std::cout << "Unable to update price.";
     return;
   }
+
+  update_file.close();
+  update_file.open(*r.restaurant_name + ".txt" , std::ios::in);
 
   std::string final_line;
   std::string updated_product;
