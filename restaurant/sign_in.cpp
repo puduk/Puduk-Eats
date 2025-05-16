@@ -1,6 +1,7 @@
 #include "sign_in.hpp"
 #include <iostream>
 #include <fstream>
+#include "restaurant_menu.hpp"
 
 void sign_in(RestaurantData& r) {
 
@@ -41,6 +42,7 @@ void sign_in(RestaurantData& r) {
   }
 
   std::cout << "Welcome." << found_name << ".";
-  // restaurant_menu;
+
+  restaurant_menu(r);
 
 }
