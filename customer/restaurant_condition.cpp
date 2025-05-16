@@ -13,13 +13,13 @@ void restaurant_condition(CustomerData& c){
 
 
   std::string active_line;
-  std::string found_activity;
+
   bool active = true ;
 
   while (std::getline(file, active_line)) {
     if(active_line.find(std::to_string(*c.restaurant_chocie) + ". Restaurant Statu : " ) != std::string::npos){
-      found_activity = active_line.substr(active_line.find(": ") + 2);
-      if(found_activity == "CLOSED"){
+      *c.found_activity = active_line.substr(active_line.find(": ") + 2);
+      if(*c.found_activity == "CLOSED"){
         active = false;
       }
     }
