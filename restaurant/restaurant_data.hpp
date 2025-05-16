@@ -3,7 +3,7 @@
 #include <iostream>
 
 class RestaurantData{
-  public:
+public:
 
     std::string* restaurant_name;
     std::string* restaurant_password;
@@ -44,6 +44,14 @@ class RestaurantData{
     int* updated_stock;
 
     int* active_choice;
+
+    int* restaurant_rate;
+    int* total_rate;
+
+    std::string* found_product;
+
+
+
 
 
 
