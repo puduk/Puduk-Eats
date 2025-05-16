@@ -1,14 +1,15 @@
 #include "first_add.hpp"
 #include <iostream>
 #include <fstream>
+#include "first_stock.hpp"
 
 void first_add(RestaurantData& r) {
 
-    std::ofstream first_file (*r.restaurant_name + ".txt" , std::ios::app);
-    if (!first_file.is_open()) {
-      std::cout << "Unfortunately can not create account.";
-      return;
-    }
+  std::ofstream first_file (*r.restaurant_name + ".txt" , std::ios::app);
+  if (!first_file.is_open()) {
+    std::cout << "Unfortunately can not create account.";
+    return;
+  }
 
 
   std::cout << "Add your first product." << '\n';
@@ -36,10 +37,13 @@ void first_add(RestaurantData& r) {
   first_file << *r.product_id << ". " <<"Product Alergy : " << *r.alergy_test << '\n';
   first_file << *r.product_id << ". " <<"Product Porsion : " << *r.product_porsion << '\n';
   first_file << "/-/-/-/" << '\n';
+  first_file.flush();
+  first_file.close();
 
   std::cout << "Your first product " << *r.product_name << " Successfully added." <<'\n';
 
 
+  first_stock(r);
 
 
 
