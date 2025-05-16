@@ -23,7 +23,9 @@ void stock_update(RestaurantData &r) {
       (*r.item_id) ++;
     }
   }
-  check_file.seekg(0 , std::ios::beg);
+
+  check_file.close();
+  check_file.open (*r.restaurant_name + "_stock.txt" , std::ios::in);
 
   std::cout << "Your Current Items : " << '\n';
 
@@ -31,7 +33,9 @@ void stock_update(RestaurantData &r) {
 
   while (std::getline(check_file, line)) {
 
-    std::cout << line << '\n';
+
+      std::cout << line << '\n';
+
   }
   std::cout << "-------------------------" << '\n';
   std::cout << "Your Choice : ";
@@ -48,7 +52,8 @@ void stock_update(RestaurantData &r) {
     std::cout << "Opps! We dont have that.";
     return;
   }
-  check_file.seekg(0 , std::ios::beg);
+  check_file.close();
+  check_file.open (*r.restaurant_name + "_stock.txt" , std::ios::in);
 
   std::string item_name;
   std::string item_line;
@@ -69,7 +74,8 @@ void stock_update(RestaurantData &r) {
   }
 
 
-  check_file.seekg(0 , std::ios::beg);
+  check_file.close();
+  check_file.open (*r.restaurant_name + "_stock.txt" , std::ios::in);
 
   std::string final_line;
 
