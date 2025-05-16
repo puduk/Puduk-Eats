@@ -56,9 +56,11 @@ void create_promo_code(RestaurantData& r){
   promo_file << *r.promo_id << ". " << "Promo Code : " << *r.promo_code << '\n';
   promo_file << *r.promo_id << ". " << "Promo Price : " << *r.promo_price << '\n';
 
+  promo_file.flush();
+  promo_file.close();
+
 
   std::cout << "Promo code : " << *r.promo_code << " created with discount: " << *r.promo_price << '\n';
 
 
 }
-
