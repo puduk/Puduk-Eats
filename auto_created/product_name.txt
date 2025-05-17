@@ -1,3 +1,7 @@
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🍽️ When a restaurant adds a new product, a recipe file will be created automatically with the required items.
+
+
 1. Item name : bread
 2. Item name : meat
 3. Item name : cheese
