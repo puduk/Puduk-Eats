@@ -8,7 +8,9 @@
 A fully-functional fast food simulation system designed for terminal use only.  
 Everything — from accounts to recipes, stock to promotions — is handled using `.txt` files and raw pointer-based dynamic memory.
 
-💻 — built as a pointer challenge project, future versions will clean up and modularize the code.
+- 💻 — built as a pointer challenge project, future versions will clean up and modularize the code.
+- ⚠️ **Note:** The current codebase contains excessive comments and some leftover debug/test lines.  
+- 🧹 A full cleanup and refactor is planned soon to improve readability and structure.
 
 ---
 
@@ -131,6 +133,7 @@ The goal was to simulate a working app **without databases, structs, or helper l
 - 🧃 Pure, pointer-based simulation — zero shortcuts
 
 ---
+
 
 ## 🤖 AI Support (1%)
 
