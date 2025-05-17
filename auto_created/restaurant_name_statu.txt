@@ -1,1 +1,8 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🟢 You can open or close your restaurant from the restaurant menu.
+
+
+1. Restaurant Name : Burger King
+Restaurant Statu : OPEN
+
+
