@@ -419,3 +419,9 @@ Rate it! Before Quit (1 - 10)
 6
 Goodbye from : Burger King
 ```
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use, modify, and distribute with proper attribution.
+
+
