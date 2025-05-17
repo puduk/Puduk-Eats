@@ -1,1 +1,14 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🏢 When you create a restaurant, its data will be saved here.
+
+
+1. Restaurant Name : Burger King
+1. Restaurant Password : 123123
+1. Restaurant Address : Zlote Tarasy
+1. Restaurant Number : +48 555-555-555
+/-/
+2. Restaurant Name : Puduk House
+2. Restaurant Password : as23197p
+2. Restaurant Address : Austin , Tx
+2. Restaurant Number : +1 999 000 999
+/-/
