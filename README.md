@@ -15,7 +15,7 @@ Everything — from accounts to recipes, stock to promotions — is handled usin
 🔐 Password-protected access  
 🧾 Forgot Password system for both user types  
 📂 Each account has its own unique .txt file  
-🚫 Duplicate checks prevent reused usernames
+🚫 Duplicate checks prevent reused usernames and restaurant name
 
 ---
 
@@ -59,7 +59,7 @@ Everything — from accounts to recipes, stock to promotions — is handled usin
 
 ## ⭐ App Rating System  
 📝 Before quitting, both customers and restaurants are asked to rate  
-📈 Scores stored and reviewed from `rate.txt`
+📈 Scores stored and reviewed from `customer_rate.txt` and `restaurant_rate.txt`
 
 ---
 
