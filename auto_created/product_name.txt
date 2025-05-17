@@ -1,1 +1,5 @@
-.
+1. Item name : bread
+2. Item name : meat
+3. Item name : cheese
+4. Item name : pickle
+5. Item name : sauce
