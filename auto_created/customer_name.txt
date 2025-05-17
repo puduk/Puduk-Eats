@@ -1,1 +1,16 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🧾 When a customer orders something, it will automatically be saved in their personal .txt file.
+
+
+
+1. Ordered Before : Big Mac - [ Thu May 15 21:17:47 2025 ] -
+2. Ordered Before : Big Mac - [ Thu May 15 21:26:38 2025 ] -
+3. Ordered Before : Big Mac - [ Thu May 15 22:31:32 2025 ] -
+4. Ordered Before : Big Mac - [ Thu May 15 22:39:36 2025 ] -
+5. Ordered Before : Big Mac - [ Thu May 15 23:40:08 2025 ] -
+6. Ordered Before : Big Mac - [ Thu May 15 23:42:19 2025 ] -
+7. Ordered Before : Big Mac - [ Thu May 15 23:55:58 2025 ] -
+8. Ordered Before : Big Mac - [ Thu May 15 23:56:40 2025 ] -
+9. Ordered Before : Big Mac - [ Thu May 15 23:57:37 2025 ] -
+10. Ordered Before : Big Mac - [ Thu May 15 23:59:58 2025 ] -
+11. Ordered Before : Fries - [ Fri May 16 01:55:26 2025 ] -
