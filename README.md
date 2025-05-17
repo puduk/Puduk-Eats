@@ -1,6 +1,6 @@
 # 🍔✨ Puduk Eats
 🛠️ A handmade terminal-based restaurant & order ecosystem built with pure C++ and file-based logic — no SQL, no GUI, just pointer magic.
-A fully-functional fast food simulation system designed for terminal use only.  
+
 ---
 ## Made by [puduk](https://github.com/puduk)
 ---
@@ -149,6 +149,12 @@ Approximately 1% of assistance was provided by ChatGPT for **logic validation**,
 ---
 
 Crafted by a student with just 1 month of C++ experience in 3 days.
+---
+
+## 📸 Sample Terminal Flow
+
+> Below is a real user experience from launching the app to placing an order, topping up balance, and managing stock.
+
 
 
 ## Opening Page
@@ -412,7 +418,7 @@ Restaurant Statu Changed to : CLOSED
 -------------------------
 ```
 
-## Quiting The System 
+## Quitting The System 
 ```
 -------------------------
 0
