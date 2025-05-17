@@ -1,1 +1,17 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 📦 You can update stock conditions from the restaurant menu.  
+# 🍽️ When a customer orders food, the recipe will be checked and stock levels will be updated automatically.
+
+
+1. Item name : bread
+1. Item amount : 19
+2. Item name : meat
+2. Item amount : 8
+3. Item name : cheese
+3. Item amount : 8
+4. Item name : pickle
+4. Item amount : 8
+5. Item name : salt
+5. Item amount : 9
+6. Item name : fries
+6. Item amount : 9
