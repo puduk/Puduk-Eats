@@ -1,1 +1,16 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🏢 When you add a new product to the menu, its data will be saved here.
+
+
+1. Product Name : Big Mac
+1. Product Price : 19.99
+1. Product Calories : 456
+1. Product Alergy : gluten and spicy
+1. Product Porsion : 300
+/-/-/-/
+2. Product Name : Fries
+2. Product Price : 9.99
+2. Product Calories : 600
+2. Product Alergy : extra oil
+2. Product Porsion : 400
+/-/-/-/
