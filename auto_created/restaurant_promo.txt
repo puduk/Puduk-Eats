@@ -1,1 +1,8 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🧑‍🍳 Restaurant owners can create new promo codes and set their value from the restaurant menu.
+
+
+1. Promo Code : puduk12
+1. Promo Price : 100
+2. Promo Code : pd24c
+2. Promo Price : 50
