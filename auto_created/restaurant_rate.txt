@@ -1,1 +1,9 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 📝 Before quitting the app, you will be asked to rate it. Your feedback will be saved here for future improvements.
+
+
+
+1. Restaurant : Burger King - Rate : 10
+2. Restaurant : Puduk House - Rate : 5
+3. Restaurant : Puduk House - Rate : 3
+
