@@ -107,6 +107,27 @@ The goal was to simulate a working app **without databases, structs, or helper l
 
 ---
 
+
+## 💡 Notes
+
+- ✅ Project contains **68 files** including `.cpp` & `.hpp`
+- 🔁 Data fully preserved between sessions using file I/O
+- ⏱️ Created from scratch in **~17 Hours** of focused coding
+
+
+---
+
+## 🧠 Advanced Concepts & Code Practices
+
+- 🔗 All data is dynamically allocated on the **heap** using raw pointers  
+- 🧠 Maximum usage of `new` / `delete` and deep manual memory management  
+- 🚫 No use of helper tools like `struct`, `vector`, `array`, or `smart pointers`  
+- 🧼 Code was repeatedly tested — **no discovered memory leaks**  
+- 🛠 Designed with a deep focus on logic, control flow, and data isolation  
+- 🧃 Pure, pointer-based simulation — zero shortcuts
+
+---
+
 ## 🤖 AI Support (1%)
 
 
