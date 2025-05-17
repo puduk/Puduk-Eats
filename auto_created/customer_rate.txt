@@ -1,1 +1,11 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🕵️ Before quitting the system, every user will rate it, and the ratings will be saved here.  
+# ⭐ You can rate the app and see your score listed below.
+
+
+1. Customer : pudukiye - Rate : 6
+2. Customer : mert - Rate : 10
+3. Customer : arthurmorgan - Rate : 5
+4. Customer : jonathan - Rate : 3
+5. Customer : elizzy - Rate : 7
+
