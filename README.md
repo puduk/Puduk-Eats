@@ -146,3 +146,130 @@ Approximately 1% of assistance was provided by ChatGPT for **logic validation**,
 
 Crafted by a student with just 1 month of C++ experience in 3 days.
 
+
+## Opening Page
+```
+------------------------------------
+1 :: for user sign in.
+2 :: for restaurant sign in .
+3 :: for create user account.
+4 :: for create restaurant account.
+5 :: for user password forget.
+6 :: for restaurant password forget.
+7 :: for quit...
+------------------------------------
+Your choice: 
+```
+## Forget Password
+```
+------------------------------------
+1 :: for user sign in.
+2 :: for restaurant sign in .
+3 :: for create user account.
+4 :: for create restaurant account.
+5 :: for user password forget.
+6 :: for restaurant password forget.
+7 :: for quit...
+------------------------------------
+Your choice: 5
+Username : pudukiye
+Please Note Your Password : 123123
+------------------------------------
+```
+## Sign in and Choose Restaurant
+---
+Avaliable Restaurants will be showed here (no limit)
+---
+```
+------------------------------------
+1 :: for user sign in.
+2 :: for restaurant sign in .
+3 :: for create user account.
+4 :: for create restaurant account.
+5 :: for user password forget.
+6 :: for restaurant password forget.
+7 :: for quit...
+------------------------------------
+Your choice: 1
+Username : pudukiye
+Password : 123123
+Singing...
+Restaurants 
+1. Restaurant Name : Burger King
+--------------------------
+```
+## Customer Menu
+```
+-----------------------------
+1 :: for Order :
+2 :: for Order History :
+3 :: for Top-up Account :
+4 :: for Change Personal Data :
+5 :: for Customer Service :
+6 :: for Suggest Me Meal :
+7 :: for Apply Promo Code : 
+8 :: for Quit :
+-----------------------------
+Your choice : 
+```
+## Ordering and Top-Up Balance
+```
+-----------------------------
+1 :: for Order :
+2 :: for Order History :
+3 :: for Top-up Account :
+4 :: for Change Personal Data :
+5 :: for Customer Service :
+6 :: for Suggest Me Meal :
+7 :: for Apply Promo Code : 
+8 :: for Quit :
+-----------------------------
+Your choice : 1
+Menu :: 
+-------------------------
+1. Product Name : Big Mac
+1. Product Price : 19.99
+2. Product Name : Fries
+2. Product Price : 9.99
+-------------------------
+Your Choice :: 1
+Big Mac
+Opps! You dont have enough money in your account.
+Please Top-up. 
+
+Current Balance in Your Account
+1. Balance : 10
+How much you want to add your account  
+40
+Top-up Balance set to : 40
+Current Saved Cards.
+1. Card Number : 5593-4323-5674-2345
+2. Card Number : 9826-4243-5674-2347
+Would you like to use saved card :: (Y - N)y
+Which card :
+1
+Card choosen :: 1
+You added 40 to your balance.
+-----------------------------
+1 :: for Order :
+2 :: for Order History :
+3 :: for Top-up Account :
+4 :: for Change Personal Data :
+5 :: for Customer Service :
+6 :: for Suggest Me Meal :
+7 :: for Apply Promo Code : 
+8 :: for Quit :
+-----------------------------
+Your choice : 1
+Menu :: 
+-------------------------
+1. Product Name : Big Mac
+1. Product Price : 19.99
+2. Product Name : Fries
+2. Product Price : 9.99
+-------------------------
+Your Choice :: 1
+You ordered : Big Mac
+Your order will be delivered in 15-25M
+-----------------------------
+```
