@@ -1,1 +1,7 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 🗂️ Customer data will be saved here.  
+# 🛠️ You can edit any data from the customer menu.
+
+
+1. Delivery Adderss : Zlote Tarasy
+1. Phone Number : 444-444-444
