@@ -1,1 +1,8 @@
-.
+# ⚠️ This data is generated automatically. You do not need to write it manually.  
+# 💳 When a customer tops up their account or enters a promotion code, their balance will be updated.  
+# 🧾 After an order, the balance will be automatically updated.
+
+
+1. Username : pudukiye
+1. Balance : 210
+
