@@ -273,3 +273,149 @@ You ordered : Big Mac
 Your order will be delivered in 15-25M
 -----------------------------
 ```
+## Promo Code 
+```
+-----------------------------
+1 :: for Order :
+2 :: for Order History :
+3 :: for Top-up Account :
+4 :: for Change Personal Data :
+5 :: for Customer Service :
+6 :: for Suggest Me Meal :
+7 :: for Apply Promo Code : 
+8 :: for Quit :
+-----------------------------
+Your choice : 7
+-------------------------
+Enter Your Promo Code : puduk12
+Promo code already used. 
+-----------------------------
+```
+## Restaurant Menu
+```
+------------------------------------
+1 :: for user sign in.
+2 :: for restaurant sign in .
+3 :: for create user account.
+4 :: for create restaurant account.
+5 :: for user password forget.
+6 :: for restaurant password forget.
+7 :: for quit...
+------------------------------------
+Your choice: 2
+------------------
+Restaurant Name : Burger King
+Restaurant Password : 123123
+Welcome.Burger King
+--------------------------
+0 :: for quit
+1 :: for add product.
+2 :: for delete product.
+3 :: for update porsion.
+4 :: for update price.
+5 :: for create promotion.
+6 :: for stock check.
+7 :: for stock update.
+8 :: for close restaurant.
+9 :: for open restaurant.
+-------------------------
+```
+## Add Product and Stock 
+---
+⚠️ If the product already exists in stock, you cannot add it again. The system will automatically check for duplicates.
+To increase the quantity, please use the Stock Update feature instead.
+---
+
+```
+-------------------------
+1
+-----------------
+Product Name : Crispy Burger
+Product Price : 23.99
+Calories : 600
+Product Porsion (500gr..) : 555
+Any Alergetic Reaction : gluten and lactose
+Your product Crispy Burger Successfully added.
+-------------------------
+How many items you need for (ex. 4) Crispy Burger
+4
+Enter Item name : 
+onion
+How many onion You have : 
+50
+Enter Item name : 
+papper
+How many papper You have : 
+20
+Enter Item name : 
+spicy
+How many spicy You have : 
+5
+Enter Item name : 
+garlic
+How many garlic You have : 
+10
+All 4 items have been added.
+-------------------------
+```
+## Stock Update
+```
+-------------------------
+7
+Your Current Items : 
+1. Item name : bread
+1. Item amount : 18
+2. Item name : meat
+2. Item amount : 7
+3. Item name : cheese
+3. Item amount : 7
+4. Item name : pickle
+4. Item amount : 7
+5. Item name : salt
+5. Item amount : 9
+6. Item name : fries
+6. Item amount : 9
+7. Item name : onion
+7. Item amount : 50
+8. Item name : papper
+8. Item amount : 20
+9. Item name : spicy
+9. Item amount : 5
+10. Item name : garlic
+10. Item amount : 10
+-------------------------
+Your Choice : 9
+Whats the new amount for  : 50
+Item  amount updated to 50
+-------------------------
+```
+
+## Close the Restaurant 
+```
+0 :: for quit
+1 :: for add product.
+2 :: for delete product.
+3 :: for update porsion.
+4 :: for update price.
+5 :: for create promotion.
+6 :: for stock check.
+7 :: for stock update.
+8 :: for close restaurant.
+9 :: for open restaurant.
+-------------------------
+8
+Restaurant Statu Changed to : CLOSED 
+-------------------------
+```
+
+## Quiting The System 
+```
+-------------------------
+0
+-------------------------------------
+Thank you for using this application!
+Rate it! Before Quit (1 - 10)
+-------------------------------------
+6
+Goodbye from : Burger King
+```
