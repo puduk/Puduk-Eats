@@ -144,7 +144,7 @@ Approximately 1% of assistance was provided by ChatGPT for **logic validation**,
 
 ## ⏱️ Timeline  
 🧠 Development Time: ~3 Days  
-💥 This project stands as one of the largest — 3,300+ lines in a single app
+💥 This is currenlty my biggest project — 3,300+ lines in a single app
 
 ---
 
