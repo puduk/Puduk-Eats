@@ -1,2 +1,10 @@
 # ⚠️ This data is generated automatically. You do not need to write it manually.  
 # 📦 You can remove product from the restaurant menu.  
+
+[DELETED]
+1. Product Name : Big Mac
+1. Product Price : 19.99
+1. Product Calories : 456
+1. Product Alergy : gluten and spicy
+1. Product Porsion : 300
+/-/-/-/
